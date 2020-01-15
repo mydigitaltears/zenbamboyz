@@ -40,7 +40,7 @@ ul {
 
 a:link{
   text-decoration: none;
-  color: black;
+  color: white
 }
 
 li {
@@ -175,7 +175,7 @@ header > ul {
 }
 
 header > p {
-  position: relative;
+    position: relative;
     font-family: 'Agra Axera', sans-serif;
     text-align: center;
     color: #1eb0ab;
@@ -198,7 +198,6 @@ header > p {
     margin: 0px;
     letter-spacing: 10px;
     z-index: 100;
-
 }
 
 .budy p {
@@ -228,16 +227,35 @@ footer {
   float: right;
 }
 
-@media (min-width: 320px) and (max-width: 967px) {
+@media (min-width: 481px) and (max-width: 1024px) {
+  .budy p {
+    display: block;
+  }
+}
 
+@media (min-width: 320px) and (max-width: 480px) {
   .socials {
     float:none;
   }
-
+  .youtube {
+    display: none;
+  }
+  body {
+    align-items: center;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-image: url("./images/glubg.jpg")
+  }
   .platforms {
     float:none;
   }
+  .budy {
+    font-size: 70px;
+  }
   .budy p {
     display: block;
+  }
+  header > p {
+    font-size: 70px;
   }
 }

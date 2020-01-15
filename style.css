@@ -258,4 +258,13 @@ footer {
   header > p {
     font-size: 70px;
   }
+  .socials > ul > li > a:hover {
+    color: white;
+    background-color: none;
+  }
+
+  .platforms > ul > li > a:hover {
+    color: white;
+    background-color: none;
+  }
 }

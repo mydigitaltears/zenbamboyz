@@ -260,11 +260,11 @@ footer {
   }
   .socials > ul > li > a:hover {
     color: white;
-    background-color: none;
+    background-color: transparent;
   }
 
   .platforms > ul > li > a:hover {
     color: white;
-    background-color: none;
+    background-color: transparent;
   }
 }
